@@ -270,19 +270,21 @@ def delProduct( NoUser, NoProd ):
 
 #Sort a codigo producto
 
-listas = []
+# listas = []
+# print(len(usuarios[0]["productos"]))
 
-def generarListaProducto():
-    i = 0
-    while i < len(usuarios):
-        j = 0
-        while j < len(usuarios[i]["productos"]):
-            elemento = usuarios[i]['productos'][j]["nombre_product"]
-            lista.append(elemento)
-            j += 1
-        i +=1
-    return listas
-print(generarListaProducto())
+# def generarListaProducto():
+#     i = 0
+#     j = 0
+#     while i < len(usuarios):
+#         while j < len(usuarios[i]["productos"]):
+#             elemento = usuarios[i]["productos"][j]["nombre_product"]
+#             if (elemento == ""):
+#                 listas.append(elemento)
+#             j += 1
+#         i +=1
+#     return listas
+# print(generarListaProducto())
 # def quicksort(generarListaProducto):
 #     if not generarListaProducto:
 #         return []
@@ -290,5 +292,5 @@ print(generarListaProducto())
 #             + [generarListaProducto[0]] +
 #             quicksort([x for x in generarListaProducto[1:] if x >= generarListaProducto[0]]))
 # print(quicksort(lista))
-print()
+# print(usuarios[0]['productos'][0]["nombre_product"])
 
