@@ -69,32 +69,32 @@ usuarios = [{
 # }]
 
 
-# productos=[
-#     {
-#         "id": "1",
-#         "nombre_product": "miguelon1,0",
-#         "descripcion_product": "bueno, bonito y barato",
-#         "categoria": "3",
-#         "price": "10000000",
-#         "estrellas": 5
-#     },
-#     {
-#         "id": "2",
-#         "nombre_product": "miguelon2,0",
-#         "descripcion_product": "bueno, bonito y barato",
-#         "categoria": "7",
-#         "price": "10000000",
-#         "estrellas": 5
-#     },
-#     {
-#         "id": "3",
-#         "nombre_product": "miguelon3,0",
-#         "descripcion_product": "bueno, bonito y barato",
-#         "categoria": "2",
-#         "price": "10000000",
-#         "estrellas": 5
-#     }
-# ]
+productos=[
+    {
+        "id": "1",
+        "nombre_product": "miguelon1,0",
+        "descripcion_product": "bueno, bonito y barato",
+        "categoria": "3",
+        "price": "10000000",
+        "estrellas": 5
+    },
+    {
+        "id": "2",
+        "nombre_product": "miguelon2,0",
+        "descripcion_product": "bueno, bonito y barato",
+        "categoria": "7",
+        "price": "10000000",
+        "estrellas": 5
+    },
+    {
+        "id": "3",
+        "nombre_product": "miguelon3,0",
+        "descripcion_product": "bueno, bonito y barato",
+        "categoria": "2",
+        "price": "10000000",
+        "estrellas": 5
+    }
+]
 
 # usuarios= proto + productos
 # print(usuarios)
