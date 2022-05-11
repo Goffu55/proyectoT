@@ -41,20 +41,6 @@ new1 = {
     "apellido": "Tangarife",
     "username": "Ginnalaenculada",
     "phone": 3123456278,
-    "identificacion": 10027894533,
-    "email": "gtplalokis@gmail.com",
-    "password": "sebastianmivida",
-    "pais": "Colombia",
-    "ciudad": "Manizales",
-    "direccion": "cll66c#45-89",
-    "fech_nac": "12-01-2001",
-    "fech_init": "08-04-2022",
-    "descripcion": "Hola, soy desarrolladora senior, inspirada por el aprendizaje",
-    "datos_estra": {
-        "habilidades": "paciencia",
-        "educacion": "universitaria",
-        "certificacion": "good"
-    }
 }
 
 new2 = {
@@ -62,21 +48,7 @@ new2 = {
     "nombre": "Sergio",
     "apellido": "Diaz",
     "username": "SergioD",
-    "phone": 3116678233,
-    "identificacion": 1054678189,
-    "email": "sergiotoro@gmail.com",
-    "password": "12345678",
-    "pais": "Colombia",
-    "ciudad": "Manizales",
-    "direccion": "cll45c#12-38",
-    "fech_nac": "23-04-2001",
-    "fech_init": "10-02-2022",
-    "descripcion": "Hola, estoy inspirado por la programacion",
-    "datos_estra": {
-        "habilidades": "perseverancia",
-        "educacion": "maestria",
-        "certificacion": "good"
-    }
+    "phone": 3116678233
 }
 
 
@@ -85,21 +57,7 @@ new3 = {
     "nombre": "Juan Diego",
     "apellido": "Agudelo",
     "username": "AgudeloJD",
-    "phone": 3012334567,
-    "identificacion": 10026778933,
-    "email": "sergiotoro@gmail.com",
-    "password": "amolavida",
-    "pais": "Colombia",
-    "ciudad": "Manizales",
-    "direccion": "cll95c#10-87",
-    "fech_nac": "06-11-1999",
-    "fech_init": "20-04-2022",
-    "descripcion": "Hola, amo mis estudios",
-    "datos_estra": {
-        "habilidades": "vocacion",
-        "educacion": "maestria",
-        "certificacion": "good"
-    }
+    "phone": 3012334567
 }
 
 
