@@ -1,3 +1,4 @@
+from classCategorias import categorias
 class carrito: 
     serviciosIngresados = ["Html, CSS, JavaScript", "POO", "Licenciatura en enseñanza"]
     cursosInscritos = [3, 10, 12]
@@ -42,4 +43,4 @@ def search(palabra):
             i += 1
     if(listaB.count(True) == 0):
         print(f'la palabra "{palabra}" no fue encontrada')
-print(search(palabra))
+print(search(palabra2))

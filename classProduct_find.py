@@ -1,3 +1,4 @@
+from clientes import usuarios
 class ProductFind:
     
     def search(palabra):
