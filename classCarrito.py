@@ -1,5 +1,6 @@
 from classCategorias import categorias
 class carrito: 
+
     serviciosIngresados = ["Html, CSS, JavaScript", "POO", "Licenciatura en enseñanza"]
     cursosInscritos = [3, 10, 12]
 

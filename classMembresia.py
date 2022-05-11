@@ -1,6 +1,9 @@
 class membresias: 
+
     tipoMembresia = ["basic", "estandar", "premium"]
     price = [50.00, 85.00, 190.00]
+
+# Ordenamos la lista de datos
 
 def quicksort(price):
     if not price:
@@ -10,6 +13,8 @@ def quicksort(price):
             quicksort([x for x in price[1:] if x >= price[0]]))
 
 print(quicksort(membresias.price))
+
+# Se Busca la palabra si existe dentro de la lista
 
 palabra3 = "basic"
 def search(palabra):
@@ -28,3 +33,5 @@ def search(palabra):
     if(listaB.count(True) == 0):
         print(f'la palabra "{palabra}" no fue encontrada')
 print(search(palabra3))
+
+    
