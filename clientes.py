@@ -1,4 +1,5 @@
 from array import array
+from unicodedata import category
 usuarios = [{
     "id": "1",
     "nombre": "Miguel",
@@ -50,7 +51,7 @@ extra = [{
 productos=[
     {
         "id": "1",
-        "nombre_product": "miguelon1,0",
+        "nombre_product": "Html, CSS, JavaScript",
         "descripcion_product": "bueno, bonito y barato",
         "categoria": "3",
         "price": "10000000",
@@ -58,7 +59,7 @@ productos=[
     },
     {
         "id": "2",
-        "nombre_product": "miguelon2,0",
+        "nombre_product": "POO",
         "descripcion_product": "bueno, bonito y barato",
         "categoria": "7",
         "price": "10000000",
@@ -66,11 +67,41 @@ productos=[
     },
     {
         "id": "3",
-        "nombre_product": "miguelon3,0",
+        "nombre_product": "Licenciatura en enseñanza",
         "descripcion_product": "bueno, bonito y barato",
         "categoria": "2",
         "price": "10000000",
         "estrellas": 5
+    }
+]
+
+categorias=[
+    {
+        "id": "1",
+        "nombre": "diseño"
+    },
+    {
+        "id": "2",
+        "nombre": "programacion"
+    },
+    {
+        "id": "3",
+        "nombre": "educacion"
+    }
+]
+
+membresia=[
+    {
+        "id": "1",
+        "nombre_membresia": "basic" 
+    },
+    {
+        "id": "2",
+        "nombre_membresia": "estandar"
+    },
+    {
+        "id": "3",
+        "nombre_membresia":  "premium"
     }
 ]
 
