@@ -50,3 +50,10 @@ numeros.extraer() # Sacamos ultmo plan
 numeros.insertar("pro") # Inserta un nuevo plan
 print(numeros.datos) # Enlistamos los datos
 print(numeros.cantidad()) # Consulta la cantidad de datos
+numeros.extraer() # Sacamos ultmo plan
+numeros.extraer() # Sacamos ultmo plan
+numeros.extraer() # Sacamos ultmo plan
+numeros.extraer() # Sacamos ultmo plan
+numeros.extraer() # Sacamos ultmo plan
+print(numeros.datos) # Enlistamos los datos
+print(numeros.cantidad()) # Consulta la cantidad de datos
