@@ -37,26 +37,6 @@ class listaDoblementeEnlazada:
                     n.nref.prev = new_node
                 n.nref = new_node
 
-    def insertar_antes_del_elemento(self, x, data):
-        if self.start_node is None:
-            print("la lista está vacía")
-            return
-        else:
-            n = self.start_node
-            while n is not None:
-                if n.item == x:
-                    break
-                n = n.nref
-            if n is None:
-                print("el elemento no está en la lista")
-            else:
-                new_node = Node(data)
-                new_node.nref = n
-                new_node.pref = n.pref
-                if n.pref is not None:
-                    n.pref.nref = new_node
-                n.pref = new_node
-
     def atravezar_lista(self):
         if self.start_node is None:
             print("List has no element")
@@ -99,30 +79,26 @@ class listaDoblementeEnlazada:
 
 lista = listaDoblementeEnlazada()
 
-prueba ={'id': '2', 'nombre_product': 'POO', 'descripcion_product': 'bueno, bonito y barato', 'categoria': '7', 'price': '10000000', 'estrellas': 5}
-prueba2 = {'id': '1.5', 'nombre_product': 'Html, CSS, JavaScript', 'descripcion_product': 'bueno, bonito y barato', 'categoria': '3', 'price': '10000000', 'estrellas': 5}
+producto1 = productos[0]
+producto2 = productos[1]
+producto3 = productos[2]
 
-i = 0
+# agregar mi primer produto al carrito
+lista.insertar_a_listaVacia(producto2)
 
-while i < len(productos):
-    if i == 0:
-        lista.insertar_a_listaVacia(productos[i])
-        i += 1
-    else: 
-        lista.insertar_despues_del_elemento(productos[i-1],productos[i])
-        i += 1
+# agregar otro producto al carrtio
 
-# lista.insertar_despues_del_elemento("11","12")
+lista.insertar_despues_del_elemento(producto2, producto1)
 
-lista.atravezar_lista()
-print("---------------------------------------------------------------")
-
-
-lista.insertar_antes_del_elemento(productos[2], prueba2)
+# agregar otro producto al carrito 
+lista.insertar_despues_del_elemento(producto1, producto3)
 
 lista.atravezar_lista()
 
+# eliminar producto de la lista
+print("--------------------------------------------------------------------")
+print("Producto eliminado")
+print("--------------------------------------------------------------------")
 
-lista.eliminar_un_elemento_dado(prueba)
-print("---------------------------------------------------------------")
+lista.eliminar_un_elemento_dado(producto2)
 lista.atravezar_lista()
